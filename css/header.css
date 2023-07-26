@@ -1,0 +1,35 @@
+header{width: 100%;}
+
+header .inner{width: 1180px; height: 120px;
+margin: 0 auto; position: relative;
+}
+
+header .inner h1{position: absolute;
+left: 30px; bottom: 20px;}
+/* 글은 a태그에 작성하였기 때문에 h1에는 폰트 적용이 안됨 */
+header .inner h1 a{font: bold 24px/1 "airal";
+color: #444;}
+
+/* munuWeb */
+header .inner .menuWeb #gnb{
+    position: absolute; right: 30px; bottom: 0;}
+
+header .inner .menuWeb #gnb li{
+    float: left;}
+    
+header .inner .menuWeb #gnb li a{
+    display: block; padding: 14px 40px;
+font: bold 14px/1 "arial"; color: #777;}
+
+header .inner .menuWeb #gnb li a:hover{
+    background-color: #555;
+color: #fff;}
+
+header .inner .utill{position: absolute;
+top: 20px; right: 30px;}
+
+header .inner .utill li{float: left;
+margin-left: 20px;}
+
+header .inner .utill li a{font: 12px/1 "arial";
+color: #999;}
