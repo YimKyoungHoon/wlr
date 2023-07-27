@@ -26,3 +26,22 @@ padding-top: 20px;}
 
 footer .inner p{float: left; width: 100%;
 font: 12px/1 "arial"; color: #777;}
+
+@media  screen and (max-width:1179px){
+    footer{
+padding: 80px 20px;
+}
+
+footer .inner{width: 100%;
+}
+
+}
+
+@media  screen and (max-width:450px){
+    footer{
+padding: 80px 20px;
+}
+footer .inner h1{font: bold 14px/1 "airal";}
+footer .inner{width: 100%;
+}
+}

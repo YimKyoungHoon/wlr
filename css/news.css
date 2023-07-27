@@ -23,3 +23,26 @@ height: 100%; object-fit: cover;
 transition: 0.5s;}
 
 #news .inner .wrap article .pic:hover img{transform: scale(1.2);}
+
+@media screen and (max-width: 1179px) {
+    #news{padding: 100px 20px;}
+
+#news .inner{width: 100%;}
+
+#news .inner .wrap article{width: 100%; 
+    margin-right: 2%;
+}
+
+#news .inner .wrap article:nth-of-type(2n){margin-right: 0%;}
+
+#news .inner .wrap article .pic{height: 20vh;}
+}
+
+@media screen and (max-width: 450px) {
+
+#news .inner .wrap article{width: 100%; 
+    margin-right: 0%;
+}
+
+#news .inner .wrap article .pic{height: 30vh;}
+}

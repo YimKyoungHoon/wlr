@@ -28,3 +28,9 @@ color: #888; float: right;}
 #comments .inner ul li:hover a{color: #fff;}
 
 #comments .inner ul li:hover span{color: #eee;}
+
+@media  screen and (max-width:1179px) {
+    #comments{width: 100%;}
+        
+        #comments .inner{width: 100%;}
+}
